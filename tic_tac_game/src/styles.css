@@ -1,0 +1,116 @@
+/* Reset and base layout */
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f0f2f5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Game container */
+.game {
+  background-color: #ffffff;
+  padding: 40px;
+  border-radius: 16px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  max-width: 500px;
+  width: 100%;
+}
+
+/* Heading style */
+.head {
+  font-size: 42px;
+  font-weight: 700;
+  color: #2c3e50;
+  margin-bottom: 50px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.game-board{
+    border: 0px solid #333;
+    border-radius: 5px;
+    background-color: #f2f0f0;
+    padding :20px;
+}
+
+.section{
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 40px; /* spacing between board and move list */
+}
+/* Board layout */
+.board-row {
+  display: flex;
+  justify-content: center;
+}
+
+/* Square button */
+.square {
+  background-color: #fff;
+  border: 2px solid #ccc;
+  font-size: 36px;
+  font-weight: bold;
+  height: 80px;
+  width: 80px;
+  margin: 4px;
+  cursor: pointer;
+  transition: background-color 0.2s, transform 0.1s;
+  border-radius: 8px;
+}
+
+.square:hover {
+  background-color: #f1f1f1;
+  transform: scale(1.03);
+}
+
+.square:focus {
+  outline: none;
+  background-color: #e8e8e8;
+}
+
+/* Status display */
+.status {
+  font-size: 20px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+/* Game info (move list) */
+.game-info {
+  margin-top: 20px;
+  font-size: 16px;
+  text-align: left;
+  background-color: #f8f8f8;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.game-info ol {
+  padding-left: 20px;
+}
+
+.game-info li {
+  margin-bottom: 8px;
+}
+
+/* Move buttons */
+.game-info button {
+  padding: 6px 12px;
+  font-size: 14px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.game-info button:hover {
+  background-color: #388e3c;
+}
