@@ -38,6 +38,7 @@ A simple and interactive Tic Tac Toe game built using **React** and **CSS**. Thi
 
 ## 📁 Project Structure
 
+```bash
 tic-tac-toe/
 ├── public/
 │ └── index.html
@@ -50,7 +51,7 @@ tic-tac-toe/
 │ └── index.js
 ├── package.json
 └── README.md
-
+```
 
 ---
 
